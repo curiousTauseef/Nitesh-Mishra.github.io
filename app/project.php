@@ -5,9 +5,9 @@
 			<hr/>
 		</div>
 		<ul>
-			<li><a href="iips.edu.in"> IIPS website</a> - Contributed in the onversion of database from old database to the new one.</li><br>
-			<li><a href="iips.edu.in"> PBAS</a> - Performance Based Appraisal System for UTD faculty to maintain their academic performance.</li><br>
-			<li><a href="iips.edu.in"> Feedback System</a> - Worked in Feedback system of IIPS to make it online. The link is enabled when the feedback has to be taken from the students.</li><br>
+			<li><a href="www.iips.edu.in"> IIPS website</a> - Contributed in the onversion of database from old database to the new one.</li><br>
+			<li><a href="iips.edu.in/pbas"> PBAS</a> - Performance Based Appraisal System for UTD faculty to maintain their academic performance.</li><br>
+			<li><a href="#"> Feedback System</a> - Worked in Feedback system of IIPS to make it online. The link is enabled when the feedback has to be taken from the students.</li><br>
 
 		</ul>
 		
@@ -18,11 +18,11 @@
 			<hr/>
 		</div>
 		<ul>
-			<li> SFIS - Social and Financial Information System, to maintain the personal information (Social + Financial) of an individual.</li><br>
 			<li> PBAS - Performance Based Appraisal System for UTD faculty to maintain their academic performance.</li><br>
 			<li> CMCS - Collectorate Multipurpose Co-operative Society, A loan management system to issue loan and manage transaction.</li><br>
 			<li> ECMS - Exceed Coaching Management System, to manage the student information related to their registration, marks etc.</li><br>
-
+			<li> SEMS - Shree Education Management System, to manage the student and faculty information related to their registration,study material,marks etc.</li><br>	
+			<li> MMS - Mess Management System, to manage the mess of an institute like inventory,student info etc.</li><br>
 		</ul>
 		
 	</div>
