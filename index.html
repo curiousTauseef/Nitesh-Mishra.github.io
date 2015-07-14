@@ -13,7 +13,7 @@
               -moz-border-top-colors: none;
               border-color: #CCCCCC;
               border-style: solid none;
-              border-width: 2px 0;
+              border-width: 1px 0;
               margin: 18px 0;
             }
         html,body {
@@ -42,14 +42,7 @@
 
 </head>
 <body background="grey">
-	<!-- To include header -->
-	<?php 
-		//include('includes/header.inc.php'); 
-		//include('includes/navbar.inc.php');
 
-		//include('includes/content.inc.php');
-
-	?>
 <div id="wrap">
 	<div class="container">
     <div class="row">
@@ -75,7 +68,7 @@
                   <li><a id="academics" href="#"> Academics |</a></li>
                   <li><a id="research" href="#"> Research |</a></li>
                   <li><a href="#"> Blog |</a></li>
-                  <li><a id="contactme" href="#"> Contact Me |</a></li>
+                  <li><a id="contactme" href="#"> Contact Me </a></li>
                   
                   </li>
                 </ul>
@@ -89,8 +82,8 @@
     <div id="result"></div>
   </div>
 </div> 
-  <hr>
         <div id="footer">
+        <hr/>
             <div class="row">
                 <div class="col-lg-12">
                     <center><p>Follow me @ : <a href="http://in.linkedin.com/in/rahulsagore">LinkedIn</a> - <a href="https://twitter.com/Rahulx1">Twitter</a> - <a href="https://github.com/Rahul-Sagore">Github</a></p></center>
@@ -100,25 +93,7 @@
 
 <!-- show_page function to show the content according to the clicked navbar item -->
 <script type="text/javascript">
-    /*function show_page(i){
-        alert(i);
-        //var datastring='id=' + i;
-        if (i==1) {
-          alert("inside ");
-          $("#result").load('content.inc.html #target');
-        };*/
-        /*$.ajax({
-            type:'POST', 
-            url: 'content.inc.php', 
-            data:datastring, 
-            success: function(response) {
-              // Any code to execute on a successful return
-              //alert("success");
-
-            }
-        });*/
-    
-    //}//end of show_page
+  
 
   $(document).ready(function(){
       //alert('onload');
