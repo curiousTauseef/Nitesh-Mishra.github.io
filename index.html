@@ -1,140 +1,24 @@
-<!DOCTYPE html>
-<!--The index page includes all the related including portion of the page from includes folder -->
-<html>
-<head>
-	<title>Nitesh Mishra</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<style type="text/css">
-        hr {
-              -moz-border-bottom-colors: none;
-              -moz-border-image: none;
-              -moz-border-left-colors: none;
-              -moz-border-right-colors: none;
-              -moz-border-top-colors: none;
-              border-color: #CCCCCC;
-              border-style: solid none;
-              border-width: 1px 0;
-              margin: 18px 0;
-            }
-        html,body {
-          height: 95%;
-          /* The html and body elements cannot have any padding or margin. */
-        }
+---
+layout: home
+---
 
-        /* Wrapper for page content to push down footer */
-        #wrap {
-          min-height: 100%;
-          height: auto;
-          /* Negative indent footer by its height */
-          margin: 0 auto -60px;
-          /* Pad bottom by footer height */
-          padding: 0 0 60px;
-        }
+<section id="about">
+	<div class="container resume-label">
+		<div class="about-content">
+			<div class="profile-div">
+				<img class="img-circle profile-pic" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+			</div>
+			<div class="fs20"> <strong> Nitesh Mishra</strong>
+				<div> FullStack Engineer at <a href="https://hashtagloyalty.com/">HashTag Loyalty</a> </div>
+			</div>
+			<div class="about-me fs18">About Me</div>	
+			<!--<h3 class="fs17 text-left">I am a full stack Ruby on Rails web developer with a two years of experience.</h3>-->
+			<i><h4 class="fs18 text-left"> "I am a full stack Ruby on Rails web developer with 2 years of experience. I feel that my greatest strengths are firstly my strong commitment to providing a professional service to all colleagues with whom I work. Secondly my skill at developing and maintaining a close working relationship with each employee of the company, something which in turn helps me to solve the problems which positively impacts on their day to day activities. Thirdly my real passion for Web Development as a whole, an obsession which allows me to spot trends and develop best practise processes."</h4></i>
 
-        /* Set the fixed height of the footer here */
-        #footer {
-          height: 80px;
-          background-color: #f5f5f5;
-        }
-    </style>
-
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-
-</head>
-<body background="grey">
-
-<div id="wrap">
-	<div class="container">
-    <div class="row">
-    <div class="col-xs-12" style="padding:2px; ">
-      <nav class="navbar navbar-default " role="navigation">
-            <div class="container-fluid" style="padding:5px;">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-
-                <a id="aboutme" style="margin-left:5px;" class="navbar-brand" href="#">About Me |</a>
-              </div>
-
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
-                <ul class="nav navbar-nav">
-                  <li  ><a id="projects" href="#" > Projects |</a></li>
-                  <li><a id="academics" href="#"> Academics |</a></li>
-                  <li><a id="research" href="#"> Research |</a></li>
-                  <li><a id="contactme" href="#"> Contact Me </a></li>
-                  
-                  </li>
-                </ul>
-             	
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-      </nav>
-     </div><!-- end of col-xs-12 div -->
-    </div><!-- end of row div -->
-   
-    <div id="result"></div>
-  </div>
-</div> 
-        <div id="footer">
-        <hr/>
-            <div class="row">
-                <div class="col-lg-12">
-                    <center>
-                      <p>Follow me @ : 
-                        <a href="http://in.linkedin.com/pub/nitesh-mishra/56/573/120/">LinkedIn</a> - 
-                        <a href="https://twitter.com/007niteshMishra">Twitter</a> - 
-                        <a href="https://github.com/Nitesh-Mishra">Github</a> -
-                        <a href="http://nm-mishra.blogspot.in/">Blog</a>
-                      </p>
-                    </center>
-                </div>
-            </div>
-        </div>
-
-<!-- show_page function to show the content according to the clicked navbar item -->
-<script type="text/javascript">
-  
-
-  $(document).ready(function(){
-      //alert('onload');
-      	$('#result').load('app/aboutme.html');
-       $("#projects").click(function(){
-        $('#result').load('app/project.html');
-         //alert("Thanks for visiting!");
-       }); 
- 
-       $("#academics").click(function(){
-       	$('#result').load('app/academics.html');
-        // alert("Thanks for visiting!");
-       });
-
-       $("#research").click(function(){
-       	$('#result').load('app/research.html');
-        // alert("Thanks for visiting!");
-       });
-
-       $("#aboutme").click(function(){
-       	$('#result').load('app/aboutme.html');
-        // alert("Thanks for visiting!");
-       });
-
-       $("#contactme").click(function(){
-       	$('#result').load('app/contactme.html');
-        // alert("Thanks for visiting!");
-       });
-
-
-     });
-</script>
-
-</div>
-</body>
-</html>
-
-
+			<div class="text-right fs16">Here is my resume in <a href="pdf/Nitesh-Mishra.pdf">pdf</a> format. </div>
+<!--
+			<h3 class="fs17 text-left">I completed my MCA(Master of Computer Application) from <a href="http://iips.edu.in/">IIPS-DAVV </a>University, Indore, India. I am an open source lover and like to explore new technologies. In the mean time, I like to solve computer science or maths problem. On the weekend I usually do some online courses from coursera, udacity, edx.</h3>-->
+		</div>
+	  {% include social.html %}
+	</div>
+</section>

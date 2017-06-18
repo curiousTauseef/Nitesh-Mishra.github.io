@@ -1,0 +1,33 @@
+<!--<footer>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
+            <a href="http://www.github.com/biomadeira/sustain">sustain</a> with ♥</p>
+        </div>
+    </div>
+</footer>
+<div class="footer"></div>-->
+<hr style="margin-bottom: 0px !important;">
+<div class="social text-center">
+	<h4 class="fs18">
+    {% if site.github %}
+	  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+    {% endif %}
+    {% if site.email %}
+	  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+    {% endif %}
+
+    {% if site.twitter %}
+	  <a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+    {% if site.linkedin %}
+	  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+    {% if site.facebook %}
+	  <a href="https://www.facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
+    {% endif %}
+    {% if site.stackoverflow %}
+	  <a href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+    {% endif %}
+	</h4>
+</div>
