@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://nitesh-mishra.github.io/
-baseurl: http://nitesh-mishra.github.io/
+url: http://username.github.io/
+baseurl: /
 title: Nitesh Mishra
 author: Nitesh Mishra
 description: Personal blog and resume
