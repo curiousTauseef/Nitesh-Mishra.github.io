@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://nitesh-mishra.github.io/
-baseurl: /
+baseurl: http://nitesh-mishra.github.io/
 title: Nitesh Mishra
 author: Nitesh Mishra
 description: Personal blog and resume
